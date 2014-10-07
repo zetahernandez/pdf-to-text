@@ -1,0 +1,27 @@
+{
+  "name": "pdf-to-text",
+  "version": "0.0.0",
+  "description": "Extract the text from pdf files",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zetahernandez/pdf-to-text.git"
+  },
+  "keywords": [
+    "pdf",
+    "text",
+    "nodejs"
+  ],
+  "author": "Fernando Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zetahernandez/pdf-to-text/issues"
+  },
+  "homepage": "https://github.com/zetahernandez/pdf-to-text"
+}
