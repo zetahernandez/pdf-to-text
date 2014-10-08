@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/zetahernandez/pdf-to-text/issues"
   },
-  "homepage": "https://github.com/zetahernandez/pdf-to-text"
+  "homepage": "https://github.com/zetahernandez/pdf-to-text",
+  "devDependencies": {
+    "mocha": "~1.21.4",
+    "should": "~4.0.4"
+  }
 }
