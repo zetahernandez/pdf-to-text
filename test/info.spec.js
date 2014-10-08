@@ -22,7 +22,6 @@ describe('Info test', function() {
       info.should.have.property('creationdate');
       info.should.have.property('moddate');
       info.should.have.property('tagged');
-      info.should.have.property('form');
       info.should.have.property('pages');
       info.should.have.property('encrypted');
       info.should.have.property('page_size');
