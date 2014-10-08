@@ -1,6 +1,6 @@
 {
   "name": "pdf-to-text",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Extract the text from pdf files",
   "main": "index.js",
   "directories": {
