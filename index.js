@@ -25,11 +25,4 @@ PDF.prototype.pdfToText = function(pdf_path, options, cb) {
 }
 
 
-module.exports.info = function(pdf_path, cb) {
-
-  new PDF().info(pdf_path, cb);
-}
-module.exports.pdfToText = function(pdf_path, options, cb) {
-  new PDF().pdfToText(pdf_path, options, cb);
-
-}
+module.exports = new PDF();
