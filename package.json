@@ -16,6 +16,12 @@
   "keywords": [
     "pdf",
     "text",
+    "extract",
+    "convert",
+    "parse",
+    "info",
+    "pdf-to-text",
+    "pdftotext",
     "nodejs"
   ],
   "author": "Fernando Hernandez",
