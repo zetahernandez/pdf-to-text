@@ -4,7 +4,7 @@ pdf-to-text is a tool to extract text from pdf. for the moment not support ocr s
 [![Build Status](https://travis-ci.org/zetahernandez/pdf-to-text.png)](https://travis-ci.org/zetahernandez/pdf-to-text)
 
 ## Installation
-=======
+
 To install the module.
 `npm install pdf-to-text`
 
@@ -52,21 +52,21 @@ pdfUtil.info(pdf_path, function(err, info) {
 It's retrieve an object with the data info from the pdf file
 
 ``` json
-{ title: 'some title',
-  subject: 'TeX output 2003.10.17:1908',
-  author: 'Fernando Hernandez',
-  creator: 'creator name',
-  producer: 'Acrobat Distiller 4.0 for Windows',
-  creationdate: 1066428670000,
-  moddate: 1066428687000,
-  tagged: 'no',
-  form: 'none',
-  pages: 8,
-  encrypted: 'no',
-  page_size: '612 x 792 pts (letter)',
-  file_size: '28695 bytes',
-  optimized: 'yes',
-  pdf_version: 1.2 
+{ "title": "some title",
+  "subject": "TeX output 2003.10.17:1908",
+  "author": "Fernando Hernandez",
+  "creator": "creator name",
+  "producer": "Acrobat Distiller 4.0 for Windows",
+  "creationdate": 1066428670000,
+  "moddate": 1066428687000,
+  "tagged": "no",
+  "form": "none",
+  "pages": 8,
+  "encrypted": "no",
+  "page_size": "612 x 792 pts (letter)",
+  "file_size": "28695 bytes",
+  "optimized": "yes",
+  "pdf_version": "1.2" 
   }
 ```
 
@@ -95,7 +95,7 @@ pdfUtil.pdfToText(upload.path, function(err, data) {
 
 
 ## Tests
-=======
+
 To test that your system satisfies the needed dependencies and that module is functioning correctly execute the command in the pdf-to-text module folder
 ```
 cd <project_root>/node_modules/pdf-to-text
